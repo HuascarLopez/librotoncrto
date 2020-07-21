@@ -1,4 +1,4 @@
-{"info": "", "results":
+{"info": {"count":1,"pages":1,"next":"https://rickandmortyapi.com/api/character/?page=2","prev":null}, "results":
  	[{"id":1,
 	"Titulo":"Paper Towns",
 	"Autor":"Jonh Green",
