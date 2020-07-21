@@ -126,9 +126,10 @@ export default function Home({ data }) {
         </form>
 
         <ul className="grid">
-          {results.map(result => {
+           {results.map(result => {
             const { id, name, image } = result;
             return (
+              <motion.li key={id} className="card" whileHover={{}}>
                 <Link href="/character/[id]" as={`/character/${id}`}>
                   <a>
                     <img src={image} alt={`${name} Thumbnail`} />
