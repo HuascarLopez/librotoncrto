@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
 
-const defaultEndpoint = `https://rickandmortyapi.com/api/character/`;
+const defaultEndpoint = `/api.json`;
 
 export async function getServerSideProps() {
   const res = await fetch(defaultEndpoint)
@@ -117,7 +117,7 @@ export default function Home({ data }) {
         </motion.div>
 
         <p className="description">
-          Rick and Morty Character Wiki
+          Libroton para Casa Hogar Niños del Camino
         </p>
 
         <form className="search" onSubmit={handleOnSubmitSearch}>
@@ -130,12 +130,10 @@ export default function Home({ data }) {
             const { id, name, image } = result;
             return (
               <motion.li key={id} className="card" whileHover={{}}>
-                <Link href="/character/[id]" as={`/character/${id}`}>
                   <a>
-                    <img src={image} alt={`${name} Thumbnail`} />
+                    <img src={image} alt={`${Titulo} Thumbnail`} />
                     <h3>{ name }</h3>
                   </a>
-                </Link>
               </motion.li>
             )
           })}
