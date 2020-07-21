@@ -1,7 +1,8 @@
-{"id":1,
+{"results":
+ 	[{"id":1,
 	"Titulo":"Paper Towns",
 	"Autor":"Jonh Green",
 	"Genero":"Libros para adolescentes",
 	"Precio":"100",
 	"Imagen":"/paperTown.jfif",
-	"Creado":"2020-07-21T11:10:42.250Z"}
+	"Creado":"2020-07-21T11:10:42.250Z"}]
