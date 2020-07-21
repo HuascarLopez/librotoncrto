@@ -112,7 +112,7 @@ export default function Home({ data }) {
           },
         }}>
           <h1 className="title">
-            Wubba Lubba Dub Dub!
+            Club Rotaract Tijuana Oeste
           </h1>
         </motion.div>
 
